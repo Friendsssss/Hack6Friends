@@ -4,7 +4,7 @@ txt = tt.read()
 
 z = txt.find(". .")
 print("last", z)
-word = "838"
+word = "50"
 a = txt.find(word)
 print("word", a)
 b = txt.find(".", 0, txt.find(word))
