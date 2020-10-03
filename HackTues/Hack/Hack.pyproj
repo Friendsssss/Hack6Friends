@@ -17,6 +17,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>Hack</Name>
     <RootNamespace>Hack</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Hack\templates\test.py" />
+    <Compile Include="test.py" />
     <Compile Include="runserver.py" />
     <Compile Include="Hack\__init__.py" />
     <Compile Include="Hack\views.py" />
@@ -42,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hack\templates\index.html" />
+    <Content Include="index.html" />
     <Content Include="requirements.txt" />
     <Content Include="Hack\static\content\bootstrap.css" />
     <Content Include="Hack\static\content\bootstrap.min.css" />
