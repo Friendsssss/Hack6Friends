@@ -1,5 +1,1 @@
-
-
 # Hack6Friends
-
-делл
