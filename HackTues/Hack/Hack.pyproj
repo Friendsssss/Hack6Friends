@@ -46,15 +46,16 @@
   <ItemGroup>
     <Content Include="Hack\static\Images\atwork1.jpg" />
     <Content Include="Hack\templates\atwork.html" />
-    <Content Include="Hack\templates\atwork1.jpg" />
     <Content Include="Hack\templates\features.html" />
     <Content Include="Hack\templates\inbg.html" />
     <Content Include="Hack\templates\index.html" />
     <Content Include="Hack\static\images\logo.gif" />
+    <Content Include="Hack\templates\school.html" />
     <Content Include="Hack\templates\shops.html" />
     <Content Include="Hack\templates\test.txt" />
     <Content Include="Hack\templates\test2.txt" />
     <Content Include="Hack\templates\index2.html" />
+    <Content Include="Hack\templates\transport.html" />
     <Content Include="Hack\templates\worldwide.html" />
     <Content Include="requirements.txt" />
     <Content Include="Hack\static\content\bootstrap.css" />

@@ -65,7 +65,25 @@ def shops():
         year=datetime.now().year,
         message='Your shops page.'
     )
+@app.route('/Transport')
+def transport():
+    """Renders the transport page."""
+    return render_template(
+        'transport.html',
+        title='Transport',
+        year=datetime.now().year,
+        message='Your transport page.'
+    )
 
+@app.route('/School')
+def school():
+    """Renders the school page."""
+    return render_template(
+        'school.html',
+        title='School',
+        year=datetime.now().year,
+        message='Your school page.'
+    )
 @app.route('/Inbg')
 def inbg():
     """Renders the inbg page."""
