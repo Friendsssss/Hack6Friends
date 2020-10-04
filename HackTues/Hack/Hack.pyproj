@@ -18,6 +18,7 @@
     <Name>Hack</Name>
     <RootNamespace>Hack</RootNamespace>
     <TestFramework>Pytest</TestFramework>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +29,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Hack\templates\test.py" />
     <Compile Include="test.py" />
     <Compile Include="runserver.py" />
     <Compile Include="Hack\__init__.py" />
@@ -44,7 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hack\templates\index.html" />
-    <Content Include="index.html" />
+    <Content Include="Hack\templates\test.txt" />
+    <Content Include="Hack\templates\test2.txt" />
     <Content Include="requirements.txt" />
     <Content Include="Hack\static\content\bootstrap.css" />
     <Content Include="Hack\static\content\bootstrap.min.css" />
