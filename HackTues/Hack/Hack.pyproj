@@ -47,6 +47,7 @@
     <Content Include="Hack\templates\features.html" />
     <Content Include="Hack\templates\inbg.html" />
     <Content Include="Hack\templates\index.html" />
+    <Content Include="Hack\templates\logo.gif" />
     <Content Include="Hack\templates\shops.html" />
     <Content Include="Hack\templates\test.txt" />
     <Content Include="Hack\templates\test2.txt" />
