@@ -46,6 +46,7 @@
     <Content Include="Hack\templates\index.html" />
     <Content Include="Hack\templates\test.txt" />
     <Content Include="Hack\templates\test2.txt" />
+    <Content Include="Hack\templates\index2.html" />
     <Content Include="requirements.txt" />
     <Content Include="Hack\static\content\bootstrap.css" />
     <Content Include="Hack\static\content\bootstrap.min.css" />

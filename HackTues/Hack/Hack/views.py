@@ -35,7 +35,7 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
-@app.route('/Run_Script')
+@app.route('/Search')
 def run_script():
     #coding: utf-8
     print(os.getcwd())
@@ -63,6 +63,7 @@ def run_script():
     f.close()
     f = open("test.txt", "r")
     print(f.read())
-
-
+    return render_template(
+        'index2.html'
+    )
 
