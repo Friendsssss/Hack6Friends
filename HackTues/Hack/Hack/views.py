@@ -104,7 +104,7 @@ def run_script():
 
     z = txt.find(". .")
     print("last", z)
-    word = "ковид"
+    word = "50"
     a = txt.find(word)
     print("word", a)
     b = txt.find(".", 0, txt.find(word))

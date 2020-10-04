@@ -62,13 +62,10 @@
     <Content Include="Hack\static\images\logo.gif" />
     <Content Include="Hack\templates\school.html" />
     <Content Include="Hack\templates\shops.html" />
-    <Content Include="Hack\templates\test.txt" />
     <Content Include="Hack\templates\test2.txt" />
     <Content Include="Hack\templates\index2.html" />
     <Content Include="Hack\templates\transport.html" />
     <Content Include="Hack\templates\worldwide.html" />
-    <Content Include="Hack\test.txt" />
-    <Content Include="Hack\test2.txt" />
     <Content Include="requirements.txt" />
     <Content Include="Hack\static\content\bootstrap.css" />
     <Content Include="Hack\static\content\bootstrap.min.css" />
