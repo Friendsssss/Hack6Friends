@@ -101,6 +101,7 @@ def run_script():
     tt = open("test2.txt", "r")
     txt = tt.read()
 
+
     z = txt.find(". .")
     print("last", z)
     word = "ковид"
@@ -120,8 +121,6 @@ def run_script():
     for i in range(b+2, c+1):
         f.write(txt[i])
     f.close()
-    f = open("test.txt", "r")
-    print(f.read())
     return render_template(
         'index2.html'
     )

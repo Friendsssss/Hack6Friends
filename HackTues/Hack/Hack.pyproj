@@ -40,11 +40,21 @@
     <Folder Include="Hack\static\content\" />
     <Folder Include="Hack\static\fonts\" />
     <Folder Include="Hack\static\images\" />
+    <Folder Include="Hack\static\pytext\" />
     <Folder Include="Hack\static\scripts\" />
+    <Folder Include="Hack\static\texts\" />
     <Folder Include="Hack\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hack\static\Images\atwork1.jpg" />
+    <Content Include="Hack\static\pytext\test.txt" />
+    <Content Include="Hack\static\pytext\test2.txt" />
+    <Content Include="Hack\static\texts\atwork.txt" />
+    <Content Include="Hack\static\texts\school.txt" />
+    <Content Include="Hack\static\texts\shops.txt" />
+    <Content Include="Hack\static\texts\test.txt" />
+    <Content Include="Hack\static\texts\test2.txt" />
+    <Content Include="Hack\static\texts\transport.txt" />
     <Content Include="Hack\templates\atwork.html" />
     <Content Include="Hack\templates\features.html" />
     <Content Include="Hack\templates\inbg.html" />
@@ -57,6 +67,8 @@
     <Content Include="Hack\templates\index2.html" />
     <Content Include="Hack\templates\transport.html" />
     <Content Include="Hack\templates\worldwide.html" />
+    <Content Include="Hack\test.txt" />
+    <Content Include="Hack\test2.txt" />
     <Content Include="requirements.txt" />
     <Content Include="Hack\static\content\bootstrap.css" />
     <Content Include="Hack\static\content\bootstrap.min.css" />
