@@ -39,15 +39,18 @@
     <Folder Include="Hack\static\" />
     <Folder Include="Hack\static\content\" />
     <Folder Include="Hack\static\fonts\" />
+    <Folder Include="Hack\static\images\" />
     <Folder Include="Hack\static\scripts\" />
     <Folder Include="Hack\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Hack\static\Images\atwork1.jpg" />
     <Content Include="Hack\templates\atwork.html" />
+    <Content Include="Hack\templates\atwork1.jpg" />
     <Content Include="Hack\templates\features.html" />
     <Content Include="Hack\templates\inbg.html" />
     <Content Include="Hack\templates\index.html" />
-    <Content Include="Hack\templates\logo.gif" />
+    <Content Include="Hack\static\images\logo.gif" />
     <Content Include="Hack\templates\shops.html" />
     <Content Include="Hack\templates\test.txt" />
     <Content Include="Hack\templates\test2.txt" />
